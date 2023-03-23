@@ -55,6 +55,7 @@ header a:hover {
 }
 section {
     width: 100%;
+    height: 1000px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-image: url(imagens/background001.jpg);
@@ -112,6 +113,7 @@ section {
 }
 .segundsec {
     width: 100%;
+    height: 1000px;
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-size: cover;
