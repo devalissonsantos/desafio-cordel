@@ -8,180 +8,50 @@
     font-family: cordel;
     src: url(fontes/Sriracha/Sriracha-Regular.ttf);
 }
-html, body {
+* {
     margin: 0px;
-    height: 100vh;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+
 }
 header {
     background-color: black;
-    padding-top: 7px;
-    margin: auto;
-    max-width: 100%;
-}
-h1 {
-    padding-top: 50px;
     color: white;
     text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vw;
     font-family: paixao;
 }
 header > p {
-    color: white;
-    text-align: center;
     padding-bottom: 50px;
 }
-header a {
+a {
     color: white;
     text-decoration: none;
-    font-size: 19px;
 }
-header a:hover {
+a:hover {
     text-decoration: underline;
-}
-.poesiaone {
-    background-color: white;
-    max-width: 100%;
-    max-height: 1000px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-.poesiaone > p {
-    font-family: cordel;
-    font-size: 3.5vw;
-    padding-top: 30px;
-    padding-left: 30px;
-    line-height: 1.7;
 }
 section {
-    width: 100%;
-    height: 1000px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.452);
-}
-.dentro {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-    padding-top: 20px;
-    max-height: 900px;
-    max-width: 780px;
-    background-color: rgba(0, 0, 0, 0.568);
-}
-.dentro > p {
-    display: inline-block;
-    font-family: cordel;
-    margin-top: 0px;
-    color: white;
-    font-size: 3.5vw;
-    line-height: 1.7;
-    padding-left: 5px;
-}
-.poesiatwo {
-    background-color: white;
-    max-width: 100%;
-    max-height: 1000px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-.poesiatwo > p {
-    font-family: cordel;
-    font-size: 3.5vw;
-    padding-top: 30px;
+    line-height: 2em;
     padding-left: 30px;
-    line-height: 1.7;
-}
-.poesiatree {
-    background-color: white;
-    max-width: 100%;
-    max-height: 1000px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-.poesiatree > p {
     font-family: cordel;
-    font-size: 3.5vw;
-    padding-top: 30px;
-    padding-left: 30px;
-    line-height: 1.7;
 }
-.segundsec {
-    width: 100%;
-    height: 1000px;
-    background-image: url(imagens/background002.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+section.normal {
+   background-color: white;
+   color: black;
 }
-.dentro2 {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-    padding-top: 20px;
-    max-height: 900px;
-    max-width: 780px;
-    background-color: rgba(0, 0, 0, 0.568);
-}
-.dentro2 > p {
-    font-family: cordel;
-    margin-top: 0px;
+section.imagem {
+    background-color: rgba(31, 30, 30, 0.438);
     color: white;
-    font-size: 3.5vw;
-    line-height: 1.7;
-    padding-left: 2px;
 }
-.poesiafor {
-    background-color: white;
-    max-width: 100%;
-    max-height: 1000px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-.poesiafor > p {
-    font-family: cordel;
-    font-size: 3.5vw;
-    padding-top: 30px;
-    padding-left: 30px;
-    line-height: 1.7;
-}
-.poesiafive {
-    background-color: white;
-    max-width: 100%;
-    max-height: 1000px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-.poesiafive > p {
-    font-family: cordel;
-    font-size: 3.5vw;
-    padding-top: 30px;
-    padding-left: 30px;
-    line-height: 1.7;
-}
-footer {
-    background-color: black;
-    max-width: 100%;
-    margin: auto;
-}
-footer > p {
-    color: white;
-    text-align: center;
-    font-size: 20vw;
-    padding-top: 10px;
-}
-footer a {
-    color: white;
-    text-decoration: none;
-}
-footer a:hover {
-    text-decoration: underline;
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
