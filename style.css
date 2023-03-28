@@ -25,6 +25,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: paixao;
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -42,6 +43,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: cordel;
+    font-size: 3.5vw;
 }
 section.normal {
    background-color: white;
@@ -52,6 +54,7 @@ section.imagem {
     color: white;
 }
 .imagem > p {
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
 }
